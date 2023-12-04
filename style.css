@@ -1,0 +1,249 @@
+
+#brandPosition{
+    padding-left: 6% !important;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color:#fff;
+    background-color: rgba(55, 81, 124, 0.5); 
+}
+.navbarPosition{
+    padding-left: 55%;
+}
+#descriptionSec h1{
+    color:#fff !important;
+    padding-left: 10%;
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+}
+
+#descriptionSec h2{
+    color:#fff;
+    padding-left: 10%;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+
+.headerBg{
+    background-color: #37517e;
+}
+
+.content{
+    padding-top: 30px;
+}
+.justifyContentCenter{
+    padding-top: 3%;
+}
+.sideImg {
+    vertical-align: middle;
+    width: 34%;
+    padding-top: 30px;
+    animation: moveImage 5s infinite;
+}
+.imgContent{
+    display: flex;
+}
+.btnGetStarted{
+    border-radius: 23px;
+    padding: 10px 20px;
+    background-color: #47b2e4;
+    border: 0px solid rgba(0, 0, 0, 0);
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+.btnPlay{
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 21px;
+}
+.buttonSection{
+    justify-content: center;
+    padding-right: 44%;
+    padding-top: 15px;
+    display: flex;
+}
+
+/* animation for image */
+
+@keyframes moveImage {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(50px); 
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .clientLogos{
+    background-color: #f3f5fa;
+    padding: 12px 0;
+    text-align: center;
+  }
+
+  .imgContainer{
+    display: flex;
+    justify-content: center;
+  }
+
+  .clientOneImg{
+    width: 10%;
+    height: 10%;
+  }
+
+  .imgContainer .clientOneImg{
+    margin: 0 10px;
+    height: auto;
+    padding: 9px 43px 10px 10px;
+    transition: transform 0.3s, filter 0.3s; 
+    filter: grayscale(100%);
+  }
+  .imgContainer .clientOneImg:hover {
+    transform: scale(1.1); 
+    filter: grayscale(0%); 
+  }
+  .clientTwoImg{
+    width: 10%;
+    height: 10%;
+  }
+  .imgContainer .clientTwoImg{
+    margin: 0 10px;
+    height: auto;
+    padding: 9px 43px 10px 10px;
+    transition: transform 0.3s, filter 0.3s; 
+    filter: grayscale(100%);
+  }
+  .imgContainer .clientTwoImg:hover {
+    transform: scale(1.1); 
+    filter: grayscale(0%); 
+  }
+  .clientThreeImg{
+    width: 10%;
+    height: 10%;
+  }
+  .imgContainer .clientThreeImg{
+    margin: 0 10px;
+    height: auto;
+    padding: 9px 43px 10px 10px;
+    transition: transform 0.3s, filter 0.3s; 
+    filter: grayscale(100%);
+  }
+  .imgContainer .clientThreeImg:hover {
+    transform: scale(1.1); 
+    filter: grayscale(0%); 
+  }
+  .clientFourImg{
+    width: 10%;
+    height: 10%;
+  }
+  .imgContainer .clientFourImg{
+    margin: 0 10px;
+    height: auto;
+    padding: 9px 43px 10px 10px;
+    transition: transform 0.3s, filter 0.3s; 
+    filter: grayscale(100%);
+  }
+  .imgContainer .clientFourImg:hover {
+    transform: scale(1.1); 
+    filter: grayscale(0%); 
+  }
+  .clientFiveImg{
+    width: 10%;
+    height: 10%;
+  }
+  .imgContainer .clientFiveImg{
+    margin: 0 10px;
+    height: auto;
+    padding: 9px 43px 10px 10px;
+    transition: transform 0.3s, filter 0.3s; 
+    filter: grayscale(100%);
+  }
+  .imgContainer .clientFiveImg:hover {
+    transform: scale(1.1); 
+    filter: grayscale(0%); 
+  }
+  .clientSixImg{
+    width: 10%;
+    height: 10%;
+  }
+  .imgContainer .clientSixImg{
+    margin: 0 10px;
+    height: auto;
+    padding: 9px 43px 10px 10px;
+    transition: transform 0.3s, filter 0.3s; 
+    filter: grayscale(100%);
+  }
+  .imgContainer .clientSixImg:hover {
+    transform: scale(1.1); 
+    filter: grayscale(0%); 
+  }
+
+  .aboutUs{
+    justify-content: center;
+    display: flex;
+    padding: 35px 0px 0px 10px;
+    color: #37517e;
+    font-size: 32px;
+  }
+  .aboutUs ::before{
+  content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+  }
+  .aboutUs ::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+  }
+  i.fa .fa-check-double ::before{
+    color: green; /* Change the color to your preference */
+    font-size: 100%; /* Adjust the font size as needed */
+  }
+
+  .row{
+    padding-top: 20px;
+  }
+
+  .leftSideContent{
+    padding: 10px 10px 10px 65px;
+  }
+
+  .leftSideContent{
+    padding: 5px 66px 50px 10px;
+  }
+  .learnMoreBtn{
+    display: block;
+    font-weight: 600 !important;
+    padding: 7px 25px 7px 25px;
+    font-family: "Poppins", sans-serif;
+    color:#47b2e4;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #47b2e4;
+    border-radius: 9px;
+  }
+  .learnMoreBtn:hover{
+    background-color: #47b2e4;
+    color:white;
+  }
