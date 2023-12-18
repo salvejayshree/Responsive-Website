@@ -230,7 +230,7 @@
   }
 
   .leftSideContent{
-    padding: 10px 10px 10px 65px;
+    padding: 10px 10px 10px 65px !important;
   }
 
   .leftSideContent{
@@ -239,7 +239,7 @@
   .learnMoreBtn{
     display: block;
     font-weight: 600 !important;
-    padding: 7px 25px 7px 25px;
+    padding: 7px 25px 7px 25px !important;
     font-family: "Poppins", sans-serif;
     color:#47b2e4;
     background-color: rgba(0, 0, 0, 0);
@@ -334,10 +334,13 @@
   .sectionFive{
     padding-left: 5%;
     padding-top: 5%;
+    padding-bottom: 5%;
   }
 
   .skillsImg{
     width: 85%;
+    height: 80%;
+    margin-left: 90px;
   }
 
 .skillsContent {
@@ -350,6 +353,7 @@
 .skills{
   color: #37517e;
   font-family: "Poppins", sans-serif;
+  font-size: 14px;
 }
 
 .val{
@@ -357,7 +361,7 @@
 }
 
 .progressBarClr{
-  background-color: #37517e !important;
+  background-color: #4668a2 !important;
 }
 
 .progressBarHeight{
@@ -366,4 +370,83 @@
 
 .technicalLanguage{
   padding-bottom: 15px;
+}
+
+.services h2{
+  justify-content: center;
+  display: flex;
+  padding: 35px 0px 0px 10px;
+  color: #37517e;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.services ::before{
+content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+.services ::after{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.centerPara{
+  padding-right: 131px !important;
+  text-align: center;
+  padding-left: 100px;
+}
+
+.sectionSix{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.cards {
+  box-shadow: 5px 10px 10px 5px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  background-color: #fff;
+  margin: 10px 10px 10px 10px;
+  transition: transform 0.3s ease;
+}
+
+.cards:hover{
+  transform: translateY(-20px);
+}
+
+.iconBox{
+  padding: 19px 15px 25px 15px;
+}
+
+.container{
+  padding-left: 27px !important;
+  padding-right: 0px !important;
+  
+}
+
+.iconStyle{
+  color: #47b2e4;
+  font-size: 36px !important;
+}
+
+.hoverStyle:hover{
+  color: #47b2e4;
+}
+
+.cardContent{
+  color: #37517e;
+  font-weight: 400;
+  padding-top: 5%;
 }
