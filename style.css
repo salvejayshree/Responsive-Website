@@ -87,8 +87,11 @@
     }
   }
 
-  .clientLogos{
+  .colorBg{
     background-color: #f3f5fa;
+  }
+
+  .clientLogos{
     padding: 12px 0;
     text-align: center;
   }
@@ -247,3 +250,120 @@
     background-color: #47b2e4;
     color:white;
   }
+  
+  .collapsible-list {
+    list-style: none;
+    padding-left: 2px;
+  }
+  
+  .collapsible-list .list {
+    margin-bottom: 10px;
+  }
+  
+  .collapsible-list input[type="checkbox"] {
+    display: none;
+  }
+  
+  .collapsible-list label {
+    cursor: pointer;
+    padding: 5px;
+    display: block;
+    margin-left: 13px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .collapsible-list ul {
+    list-style: none;
+    margin-left: 20px;
+    display: none;
+  }
+  
+  .collapsible-list input[type="checkbox"]:checked + label + ul {
+    display: block;
+    margin-left: 13px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+  }
+  
+  .listBg{
+    background-color: #fff;
+  }
+  
+  .numColor{
+    color: #47b2e4;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .fa .fa-angle-down::after{
+    display: none;
+  }
+
+  .listColor:hover{
+    color: #47b2e4;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .padding-bottom-10 {
+    padding-bottom: 10px;
+  }
+
+  .p-content{
+    font-size: 15px;
+    color: #848484;
+  }
+  
+  .h3-content{
+    font-weight: 400;
+    font-size: 34px;
+    color: #37517e;
+  }
+
+  .why-us{
+    width: 100%;
+  }
+
+  .sectionFour{
+      padding-top: 10%;
+      padding-left: 10%;
+      padding-bottom: 10%;
+  }
+
+  .sectionFive{
+    padding-left: 5%;
+    padding-top: 5%;
+  }
+
+  .skillsImg{
+    width: 85%;
+  }
+
+.skillsContent {
+    font-weight: 700;
+    font-size: 32px;
+    color: #37517e;
+    font-family: "Poppins", sans-serif;
+}
+
+.skills{
+  color: #37517e;
+  font-family: "Poppins", sans-serif;
+}
+
+.val{
+  float: right;
+}
+
+.progressBarClr{
+  background-color: #37517e !important;
+}
+
+.progressBarHeight{
+  height: 10px !important;
+}
+
+.technicalLanguage{
+  padding-bottom: 15px;
+}
