@@ -450,3 +450,41 @@ content: '';
   font-weight: 400;
   padding-top: 5%;
 }
+
+.cta{
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), 
+  url('images/cta-bg.jpg') fixed center center;
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.pl-100{
+  padding-left: 100px !important;
+}
+
+.pt-40{
+  padding-top: 40px;
+}
+
+.btn-cta{
+    border-radius: 50px;
+    border-color: white;
+    padding: 10px 50px 10px 50px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.btn-cta:hover{
+  background-color: #47b2e4;;
+}
+
+.cta h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
